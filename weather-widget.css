@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pixelify+Sans&family=Stick&display=swap');
+
+:root {
+    --main-bg-color: rgb(34, 34, 34);
+    --double-bg-color: #2b2d2f;
+    --main-text-color: whitesmoke;
+    --dark-text-color: rgb(34, 34, 34);
+
+    --main-information-bg: rgb(44, 44, 44);
+    --other-information-bg: #131313;
+    
+    --daily-bg: #1b1b1b;
+    --daily-border: #2e2e2e;
+
+    --light-main-bg: whitesmoke;
+    --light-other-bg: rgb(172, 172, 172);
+    --light-daily-bg: #cbcbcb;
+    --daily-border-light: whitesmoke;
+
+    --input-color: #3b3f42;
+    --input-hover-color: #62696e;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+
+    display: flex;
+    justify-content: center;
+}
