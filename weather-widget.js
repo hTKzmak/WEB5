@@ -125,7 +125,8 @@ class weatherWidget extends HTMLElement {
             <p>Wind speed (10m): ${content.current?.wind_speed_10m}${content.current_units?.wind_speed_10m}</p>
             `
 
-            for (let i = 0; i <= 6; i++) {
+let daily_days = content.daily?.time;
+            for (let i = 0; i < daily_days.length; i++) {
                 dailyInfo.innerHTML += `
                 <div class="daily-card">
                 <h4>${content.daily?.time[i]}</h4>
